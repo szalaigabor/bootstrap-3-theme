@@ -1,0 +1,133 @@
+@media (min-width: 768px) and (max-width:992px) {	
+	.container {
+		width: 96%;
+	}
+}
+
+@media (max-width: 768px) {	
+	body {
+		font-size: 12px;
+	}
+	
+	h2 {
+		font-size: 180%;
+	}
+	
+	h3 {
+		font-size: 160%;
+	}
+
+	.section-title {
+		margin-bottom: 30px;
+		padding-bottom: 25px;
+	}
+	
+	/* Navigation */
+	header {
+		background: #0f0f0f;
+	}
+	
+	button.navbar-toggle span {
+		background: #fff;
+	}
+	
+	section#HomeSlider .carousel-caption h1 {
+		font-size: 200%;
+		margin-bottom: 5px;
+		padding: 10px;
+	}
+	
+	section#HomeSlider .carousel-caption p {
+		padding: 5px;
+	}
+	
+	section#HomeSlider .carousel-control.left,
+	section#HomeSlider .carousel-control.right {
+		font-size: 12px;
+		width: 20px;
+		height: 20px;
+		line-height: 15px;
+	}
+	
+	section#HomeSlider .carousel-control.left {
+		margin-left: 20px;
+	}
+	
+	section#HomeSlider .carousel-control.right {
+		margin-right: 20px;
+	}
+	
+	/* Process */
+	section#process .process-container {
+		padding: 20px 1.25rem;
+	}
+	
+	/* Services */
+	section#services .services-box {
+		border: none;
+	}
+	
+	section#services .services-box:not(:last-child) {
+		border-bottom: 1px dashed rgba(255, 255, 255, .5);
+	}
+	
+	/* Our Team */
+	section#our-team div.col-xs-12:not(:last-child) .team-member-container {
+		margin-bottom: 20px;
+	}
+	
+	section#our-team .team-member-container img {
+		width: 100%;
+		height: auto;
+	}
+	
+	section#our-team .team-member-container .team-member-data {
+		top: 45%;
+	}
+	
+	/* Our Works */
+	section#our-works .work-container {
+		margin-bottom: 20px;
+	}
+	
+	section#our-works div.col-xs-12:last-child .work-container {
+		margin-bottom: 0;
+	}
+	
+	section#our-works .work-container img {
+		width: 100%;
+		height: auto;
+	}
+	
+	/* Pricing */
+	section#pricing .pricing-table-container {
+		margin-top: 80px;
+	}
+	
+	section#pricing .pricing-table-container:first-child {
+		margin-top: 50px;
+	}
+	
+	/* Contact */
+	section#contact form#ContactForm {
+		margin-top: 50px;
+	}
+	
+	/* Footer */
+	footer .map iframe {
+		height: 250px;
+	}
+
+	footer p.copyright {
+		display: block;
+	}
+
+	footer p.copyright,
+	footer ul.social {
+		text-align: center !important;
+	}
+
+	footer ul.social {
+		margin-bottom: 10px;
+	}
+}
